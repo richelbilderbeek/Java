@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<workingSetManager>
-<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1437468234402_1" label="Beast2WorkingSet" name="Beast2WorkingSet">
-<item elementID="=MyBeautiStarter/src&lt;my_package{MyStartingClass.java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-</workingSet>
-<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1437465480449_0" label="Window Working Set" name="Aggregate for window 1437465480448"/>
-<mruList name="Beast2WorkingSet"/>
-</workingSetManager>
