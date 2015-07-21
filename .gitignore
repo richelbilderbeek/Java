@@ -15,3 +15,6 @@ beast2/*
 .metadata/*
 .metadata/.*
 org.eclipse.sqt/*
+/org.eclipse.sqt/*
+/org.eclipse.swt/*
+org.eclipse.swt/*
