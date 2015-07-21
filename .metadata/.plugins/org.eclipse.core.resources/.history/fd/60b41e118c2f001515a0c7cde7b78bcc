@@ -1,0 +1,14 @@
+
+
+public class TheOtherTwoMainsCaller {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		FirstMain a = new FirstMain();
+		FirstMain b = new SecondMain();
+
+	}
+
+}

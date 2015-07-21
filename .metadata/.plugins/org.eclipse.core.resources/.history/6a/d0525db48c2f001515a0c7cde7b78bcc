@@ -1,0 +1,9 @@
+
+public class MyBeastProjectMain {
+
+	public static void main(String[] args) {
+		System.out.println("MyBeastProjectMain starts");
+
+	}
+
+}
