@@ -1,4 +1,4 @@
-# BEAST2 error
+# BEAST2 error 1
 
 I followed the instructions on [the BEAST2 ](http://beast2.org/writing-a-beast-2-package). 
 
@@ -10,10 +10,6 @@ named 'beast2'. You should be able to leave everything in the New Java Project d
 box at its default value. Once you press the Finish button, Eclipse will proceed
 to compile 'beast2'.
 ```
-
-I saw that the automatic setup chose 1.2 as a JRE, which will later turn out to be incorrect:
-
-![Minimum 1.2](JavaBeast2error1SetupIncorrect.png)
 
 The first incation of the error was visible in the Package Explorer:
 
@@ -35,4 +31,4 @@ Ah, the true error! I did get another error message:
 
 ![Error on changing](JavaBeast2error4Message.png)
 
-But hey, that error is fixed.
+But hey, the error is fixed.
