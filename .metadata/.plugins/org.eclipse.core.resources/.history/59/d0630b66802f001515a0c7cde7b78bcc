@@ -1,0 +1,10 @@
+
+public class FirstMain {
+
+	public static void main(String[] args) {
+		System.out.println("Hello from first main");
+		SecondMain second_main = new SecondMain();
+		second_main.main(args);
+	}
+
+}

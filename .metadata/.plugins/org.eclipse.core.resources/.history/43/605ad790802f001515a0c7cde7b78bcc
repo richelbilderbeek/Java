@@ -1,0 +1,17 @@
+
+public class FirstMain {
+
+	public static void main(String[] args) {
+			System.out.println("Started FirstMain");
+
+			FirstMain first_main = new FirstMain();
+			first_main.sayHello();
+			SecondMain second_main = new SecondMain();
+			second_main.sayHello();
+		}
+		public void SayHello() {
+			System.out.println("Hello from FirstMain");
+			
+		}
+
+}
