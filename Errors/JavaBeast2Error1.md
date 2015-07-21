@@ -1,4 +1,4 @@
-# BEAST2 error 1
+# [SOLVED] BEAST2 error 1
 
 I followed the instructions on [the BEAST2 ](http://beast2.org/writing-a-beast-2-package). 
 
@@ -27,8 +27,12 @@ I zoomed in to the first error:
 
 ![Zoom in on Validat](JavaBeast2Error1Message2.png)
 
-Ah, the true error! I did get another error message:
+Ah, the true error! The quick fix sets the Java compiler to 1.5.
+
+I did get another warning, but this one is no problem:
 
 ![Error on changing](JavaBeast2Error1Message4.png)
 
-But hey, the error is fixed.
+For this, the error is fixed.
+
+Too bad you will run in the [second BEAST2 error](JavaBeast2Error2.md), because the JRE must not be set to just `1.5` but to `1.6` instead.
