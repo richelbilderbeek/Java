@@ -13,22 +13,22 @@ to compile 'beast2'.
 
 The first incation of the error was visible in the Package Explorer:
 
-![First indication of the error](JavaBeast2error1Indication.png)
+![First indication of the error](JavaBeast2Error1Indication.png)
 
 I zoomed in to the first error:
 
-![Zoom in on first error](JavaBeast2error1Message.png)
+![Zoom in on first error](JavaBeast2Error1Message.png)
 
 `beast.core.Logger.LogFileMode` gave an error, so I looked that one up:
 
-![Zoom in on LogFileMode](JavaBeast2error2Message.png)
+![Zoom in on LogFileMode](JavaBeast2Error1Message2.png)
 
 `beast.core.Input.Validate` appeared to be the cause of that error, so I looked that one up:
 
-![Zoom in on Validat](JavaBeast2error3Message.png)
+![Zoom in on Validat](JavaBeast2Error1Message2.png)
 
 Ah, the true error! I did get another error message:
 
-![Error on changing](JavaBeast2error4Message.png)
+![Error on changing](JavaBeast2Error1Message4.png)
 
 But hey, the error is fixed.

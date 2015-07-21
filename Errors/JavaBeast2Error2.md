@@ -5,10 +5,10 @@ and solved the [first BEAST2 error](JavaBeast2Error1.md).
 
 The first incation of the error was visible in the Package Explorer:
 
-![First indication of the error](JavaBeast2error2Indication.png)
+![First indication of the error](JavaBeast2Error2Indication.png)
 
 I zoomed in to the first error:
 
-![Zoom in on first error](JavaBeast2error2Message1.png)
+![Zoom in on first error](JavaBeast2Error2Message1.png)
 
 Chose the quick fix and it worked.
