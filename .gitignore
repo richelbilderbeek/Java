@@ -12,3 +12,5 @@
 hs_err_pid*
 /beast2/*
 beast2/*
+.metadata/*
+.metadata/.*

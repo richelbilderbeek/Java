@@ -1,0 +1,1 @@
+svn checkout http://beast2.googlecode.com/svn/trunk/ beast2
