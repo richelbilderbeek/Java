@@ -24,7 +24,7 @@ This will create a folder called `beast2`.
 
 ![Start downloading BEAST2](StartDownloadBeast2.png)
 
-![End of downloading BEAST2](StartDownloadBeast2.png)
+![End of downloading BEAST2](EndDownloadBeast2.png)
 
 
 ### Put BEAST2 into a Java project
@@ -88,7 +88,50 @@ This takes you back to the Package Explorer pane.
 
 ![Package Explorer with BEAST2 and MyProject](EclipsePackageExplorerWithBeast2AndMyProject.png)
 
-## Add 
+## Create a new tree prior
+
+To create a new tree prior, I will use the Yule model already present in BEAST2.
+
+Select `MyProject` in the Package Explorer, right-click and select 'New | Class'
+
+![Create a new class](EclipseCreateNewClass.png)
+
+Change the class name to `MyTreePrior`. Ignore all the warnings (as we won't use the generated code anyways) and click `Finish`. 
+
+![Create a new MyTreePrior class](EclipseCreateNewTreePrior.png)
+
+Now you will see the initial code of `MyTreePrior`:
+
+![Initial code of MyTreePrior](EclipseMyTreePriorDefault.png)
+
+This initial code, however, will be replaced soon.
+
+I will replace the initial code by the Yule tree prior. In the Package Explorer, find the Yule tree prior code. It is under `beast2 | src | beast.evolution.speciation`.
+
+![Yule model code](YuleModel.png)
+
+Copy-paste the source code into the `MyTreePrior` code. A lot of errors pop up that we'll fix now.
+
+![Copied Yule model code](YuleModelCopy.png)
+
+The first error suggests to put the class in the appropriate package.
+
+![Suggest to move to package](MoveToPackage.png)
+
+Double-click this fix.
+
+![Yule model copy in correct package](YuleModelCopyMovedToPackage.png)
+
+The next error is that `YuleModel` is not the correct type and Eclipse suggest to rename it to `MyTreePrior` instead.
+
+![Eclipse suggests to rename the type](RenameType.png)
+
+Double-click this fix. Our class now has the correct (new) class name.
+
+![Eclipse renamed the type](RenamedType.png)
+
+
+
 
 
 Creating a package for “MyPackage”
